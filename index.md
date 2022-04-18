@@ -134,7 +134,6 @@ address.
 {% else %}
 {% assign online = "false" %}
 {% endif %}
-{% if page.latitude and page.longitude and online == "false" %}
 <p id="where">
   <strong>Where:</strong> This workshop will support in-person and remote, online attendace.   
   If you register as an in-person attendeee, the workshop will take place at   
@@ -142,6 +141,10 @@ address.
   
   If you register as a remote attendeee,
   the instructors will provide you with the information you will need to connect to this meeting.
+</p>
+{% if page.latitude and page.longitude and online == "false" %}
+<p id="where">
+  <strong>Where:</strong>
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
