@@ -5,14 +5,14 @@ permalink: /setup/
 ---
 In order to follow this lesson, you will need to make sure the following software is installed on your computer.
 
-## Part one: Manually scrape data using browser extensions
+## Scraper Chrome Extension
 
 For the first half of the lesson, we will use a Chrome browser extension to get started with web scraping.
 
 1. Please ensure you have a working copy of the [Chrome browser](https://www.google.com/intl/en/chrome/browser/).
 2. Using Chrome, download and enable the [Scraper extension](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd).
 
-## Part two: Write Python programs to automatically scrape data
+## Using the Command line with Python and Scrapy
 
 ### Shell and Python
 The second part of the lesson requires the Python programming language and access to a command-line interface (shell) on your computer.
