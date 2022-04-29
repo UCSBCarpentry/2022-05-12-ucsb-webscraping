@@ -38,35 +38,13 @@ We will access JupyterLab through a cloud-based server called JupyterHub (our in
 > [JupyterLab user interface documentation][jupyterlab-ui].
 {: .callout}
 
-## Starting JupyterLab from JupyterHub
-### Logging in to JupyterHub
-The website address for our JupyterHub is https://js-171-170.jetstream-cloud.org/. Please log in to JupyterHub using the username you choose from the previously shared Google sheet. The passwords for the accounts are also found on that google sheet.
-You should see the following login page:
+## Starting JupyterLab from Anaconda Navigator
+
+Start up Anaconda Navigator on your device. On the Anaconda Navigator Home dashboard, you will see a list of applications. Please find and launch JupyterLab. JupyterLab will open a tab on your browser and run from inside that tab.
 
 <p align='center'>
-    <img alt="JupyterHub Login Page" src="../fig/Jupyterlab_login.PNG" width="750"/>
+    <img alt="JupyterLab Left Side Bar" src="../fig/JupyterLab-startup.png" width="250"/>
 </p>
-
-<p align='center'>
-    <img alt="JupyterHub Server Loading" src="../fig/JupyterHub_serverloading.PNG" width="750"/>
-</p>
-**NOTE** While it takes a bit to load, sometimes you will encounter a spawn failed error or 500 internal server error. If you encounter the spawn failed, refresh the page. It should then show a Page that shows 500 internal server error page. Please click the "home page" link on that page. This will give you a "start server" button. Click the start server button and your JupyterHub should load properly.
-
-Spawn failed error, restart page:
-<p align='center'>
-    <img alt="spawn failed" src="../fig/JupterLab_spawnfailed.PNG" width="750"/>
-</p>
-
-Internal Server Error, click `home page`:
-<p align='center'>
-    <img alt="JupyterHub 500 Internal server error" src="../fig/JupyterHub_500InternalError.PNG" width="750"/>
-</p>
-
-Back to Homepage, click `start my server` button
-<p align='center'>
-    <img alt="JupyterHub Homepage" src="../fig/JupyterHub_homepage.PNG" width="750"/>
-</p>
-
 
 ## The JupyterLab Interface
 
