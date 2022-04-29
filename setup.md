@@ -45,7 +45,7 @@ you can easilly install Scrapy by doing the following:
 2. Type the following:
 
 ```
- conda install scrapy
+ conda install -c conda-forge scrapy
 ```
 
 Alternatively, if you have another distribution of Python, you can try using pip:
