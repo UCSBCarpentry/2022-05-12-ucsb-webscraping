@@ -44,16 +44,14 @@ you can easilly install Scrapy by doing the following:
 1. Open a new shell (e.g. Terminal on Mac, or the Anaconda command-line tool on Windows)
 2. Type the following:
 
-> conda install scrapy
->
-{: .source}
+```
+ conda install scrapy
+```
 
 Alternatively, if you have another distribution of Python, you can try using pip:
 
 ```
-> pip install Scrapy
->
-{: .source}
+ pip install Scrapy
 ```
 
 If you run into issues while installing Scrapy, refer to the
