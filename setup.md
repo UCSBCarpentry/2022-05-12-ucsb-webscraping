@@ -22,7 +22,7 @@ For the first half of the lesson, we will use a Chrome browser extension to get 
 4. Click the "add to" chrome button.
 
 You will see a putty knife icon along your browser like so
-<img align="left" src="fig/scrapy-ext.PNG">
+<img align="left" width="180" height="55" src="fig/scrapy-ext.PNG">
 
 
 ### Using the Command line with Python using Anaconda and Scrapy
