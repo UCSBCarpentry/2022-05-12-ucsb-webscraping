@@ -5,7 +5,7 @@ permalink: /setup/
 ---
 In order to follow this lesson, you will need to make sure the following software is installed on your computer.
 
-## Scraper Chrome Extension
+### Scraper Chrome Extension
 
 For the first half of the lesson, we will use a Chrome browser extension to get started with web scraping. Follow the steps below to install Scraper:
 
@@ -17,9 +17,9 @@ For the first half of the lesson, we will use a Chrome browser extension to get 
 
 4. Click the "add to" chrome button.
 
-## Using the Command line with Python and Scrapy
+### Using the Command line with Python and Scrapy
 
-### Shell and Python
+#### Shell and Python
 The second part of the lesson requires the Python programming language and access to a command-line interface (shell) on your computer.
 Please refer to [the Software Carpentry setup instructions](http://swcarpentry.github.io/workshop-template/#setup) for
 *the Bash shell* and *Python* if you need guidance.
@@ -34,7 +34,7 @@ Please refer to [the Software Carpentry setup instructions](http://swcarpentry.g
 >
 {: .prereq}
 
-### Scrapy
+#### Scrapy
 
 Once you have a working installation of Python, the next step is to install [Scrapy](https://scrapy.org/).
 
@@ -44,13 +44,13 @@ you can easilly install Scrapy by doing the following:
 1. Open a new shell (e.g. Terminal on Mac, or the Anaconda command-line tool on Windows)
 2. Type the following:
 
-> conda install scrapy
+> 'conda install scrapy'
 >
 {: .source}
 
 Alternatively, if you have another distribution of Python, you can try using pip:
 
-> pip install Scrapy
+> 'pip install Scrapy'
 >
 {: .source}
 
