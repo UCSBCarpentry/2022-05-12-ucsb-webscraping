@@ -29,7 +29,7 @@ You will see a putty knife icon along your browser like so
 
 #### Shell and Python
 The second part of the lesson requires the Python programming language and access to a command-line interface (shell) on your computer.
-Please refer to [where are we going with the setup link?]() for
+Please refer to [kristi doesn't know which setup link?]() for
 *the Bash shell* and *Python* if you need guidance.
 
 > ## Prerequisites
