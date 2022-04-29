@@ -17,11 +17,11 @@ For the first half of the lesson, we will use a Chrome browser extension to get 
 
 4. Click the "add to" chrome button.
 
-### Using the Command line with Python and Scrapy
+### Using the Command line with Python using Anaconda and Scrapy
 
 #### Shell and Python
 The second part of the lesson requires the Python programming language and access to a command-line interface (shell) on your computer.
-Please refer to [the Software Carpentry setup instructions](http://swcarpentry.github.io/workshop-template/#setup) for
+Please refer to [where are we going with the setup link?]() for
 *the Bash shell* and *Python* if you need guidance.
 
 > ## Prerequisites
@@ -34,6 +34,7 @@ Please refer to [the Software Carpentry setup instructions](http://swcarpentry.g
 >
 {: .prereq}
 
+<br/>
 #### Scrapy
 
 Once you have a working installation of Python, the next step is to install [Scrapy](https://scrapy.org/).
