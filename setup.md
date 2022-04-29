@@ -25,7 +25,7 @@ You will see a putty knife icon along your browser like so
 
 <img align="left" width="180" height="55" src="fig/scrapy-ext.PNG">
 
-</br>
+<br/>
 ### Using the Command line with Python using Anaconda and Scrapy
 
 #### Shell and Python
