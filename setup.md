@@ -3,7 +3,11 @@ layout: page
 title: Setup
 permalink: /setup/
 ---
-In order to follow this lesson, you will need to make sure the following software is installed on your computer.
+
+### Setup Instructions
+In order to follow this lesson, you will need to make sure the following software is installed on your computer. 
+We will be using Python through [Anaconda](https://www.anaconda.com/products/distribution). After installing Anaconda, you will need to install `Scrapy` through the command line either by pip install 
+or conda forge. `Scrapy` is an open source framework for extracting data from websites. 
 
 ### Scraper Chrome Extension
 
