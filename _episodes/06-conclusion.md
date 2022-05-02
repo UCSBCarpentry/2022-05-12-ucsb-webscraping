@@ -67,7 +67,7 @@ This is called a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack
 > C. Retail, Real Estate, Transportation, Utilities, and Religious Institutions
 > D. Individuals
 >
-> >
+> > ## Solution
 > > Answer: A. Education, Finance, Government, Healthcare
 > >
 > > According to <a href= "https://www.interpol.int/en/News-and-Events/News/2020/INTERPOL-report-shows-alarming-rate-of-cyberattacks-during-COVID-19">INTERPOL</a>,
@@ -106,12 +106,13 @@ Thanks to the defenses web servers use to protect themselves against DoS attacks
 measure to avoid inadvertently launching such an attack, the risks of causing trouble is limited.
 
 > ## Ethics Discussion: Intentional precautionary measures
->
+> 
 > Even though Scrapy's default behavior is intended to prevent Denial of Service on a website,
 > you as the user can make choices that are mindful of how you use Scrapy.
->
+> 
 > What are some precautionary practices you can do as a Scrapy user?
->
+> 
+> > ## 
 > > * Avoid concentrating your webscraping into a short amount of time, so that you have longer delays between requests.
 > > * Webscrape sites during off-peak hours to help ensure that other website users may access website services.
 > > 
@@ -145,21 +146,23 @@ it word for word or trying to make money out of it, reusing publicly available
 content scraped off the internet is OK.
 
 > ## Webscraping Use Case: Web Articles
->
+> 
 > Towards Data Science is a popular online site filled with publications from independent writers. In 2018, Will Koehrsen published an article in Towards Data Science called
 > ["The Next Level of Data Visualization in Python: How to make great-looking, fully-interactive plots with a single line of Python"](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e).
->
+> 
 > Here's the first few lines of Koehrsen's article:
 > "The sunk-cost fallacy is one of many harmful cognitive biases to which humans fall prey.
 > It refers to our tendency to continue to devote time and resources to a lost cause because we have already spent — sunk — so much time in the pursuit...
 > Over the past few months, I’ve realized the only reason I use matplotlib is the hundreds of hours I’ve sunk into learning the convoluted syntax."
->
-> One of the lines in the article is <strong>"Luckily, plotly + cufflinks was designed with time-series visualizations in mind."</strong> Please do a web-search of this line and seeing what results show up.
+> 
+> One of the lines in the article is <strong>"Luckily, plotly + cufflinks was designed with time-series visualizations in mind."</strong> Please do a web-search of >
+> this line and seeing what results show up.
 > Do any of the results seem familiar?
 > 
+> > ## 
 > > You may notice that multiple blogs have the content of Koehrsen's article without proper citation. Many sites use webscraping to obtain content of
 > > other publications in order to automatically generate articles.
-> >
+> > 
 > {: .solution}
 {: .challenge}
 
