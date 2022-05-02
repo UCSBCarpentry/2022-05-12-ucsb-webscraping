@@ -62,10 +62,10 @@ This is called a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack
 > for these attacks.
 >
 > What category of targets do you think saw the most DDoS attacks in 2021?
-> A. Education, Finance, Government, and Healthcare
-> B. Information Technology & Manufacturing
-> C. Retail, Real Estate, Transportation, Utilities, and Religious Institutions
-> D. Individuals
+> * A. Education, Finance, Government, and Healthcare
+> * B. Information Technology & Manufacturing
+> * C. Retail, Real Estate, Transportation, Utilities, and Religious Institutions
+> * D. Individuals
 >
 > > ## Solution
 > > Answer: A. Education, Finance, Government, Healthcare
@@ -112,7 +112,7 @@ measure to avoid inadvertently launching such an attack, the risks of causing tr
 > 
 > What are some precautionary practices you can do as a Scrapy user?
 > 
-> > ## 
+> > ## Some Solutions
 > > * Avoid concentrating your webscraping into a short amount of time, so that you have longer delays between requests.
 > > * Webscrape sites during off-peak hours to help ensure that other website users may access website services.
 > > 
@@ -155,11 +155,11 @@ content scraped off the internet is OK.
 > It refers to our tendency to continue to devote time and resources to a lost cause because we have already spent — sunk — so much time in the pursuit...
 > Over the past few months, I’ve realized the only reason I use matplotlib is the hundreds of hours I’ve sunk into learning the convoluted syntax."
 > 
-> One of the lines in the article is <strong>"Luckily, plotly + cufflinks was designed with time-series visualizations in mind."</strong> Please do a web-search of >
-> this line and seeing what results show up.
+> One of the lines in the article is <strong>"Luckily, plotly + cufflinks was designed with time-series visualizations in mind."</strong> Please do a web-search of 
+> this line and study the results that show up.
 > Do any of the results seem familiar?
 > 
-> > ## 
+> > ## Solution
 > > You may notice that multiple blogs have the content of Koehrsen's article without proper citation. Many sites use webscraping to obtain content of
 > > other publications in order to automatically generate articles.
 > > 
