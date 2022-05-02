@@ -19,7 +19,7 @@ keypoints:
 
 Now that we have seen several different ways to scrape data from websites and are
 ready to start working on potentially larger projects, we may ask ourselves whether
-there are any legal implications of writing a piece of computer code that downloads
+there are any legal and ethical implications of writing a piece of computer code that downloads
 information from the Internet.
 
 In this section, we will be discussing some of the issues to be aware of when
@@ -55,6 +55,30 @@ from accessing the site during that time, or even cause the server to run out of
 In fact, this is such an efficient way to disrupt a web site that hackers are often doing it on purpose.
 This is called a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank"> Denial of Service (DoS) attack</a>.
 
+> ## Distributed Denial of Service Attacks in 2020 and 2021
+>
+> The <a href= "">2021 Comcast Business DDoS (Distributed Denial of Service) Threat Report</a> recorded
+> a significant increase in global DDoS attacks in 2020 and 2021. Also, Comcast also noted how these years saw a shift in targets
+> for these attacks.
+>
+> What category of targets do you think saw the most DDoS attacks in 2021?
+> A. Education, Finance, Government, and Healthcare
+> B. Information Technology & Manufacturing
+> C. Retail, Real Estate, Transportation, Utilities, and Religious Institutions
+> D. Individuals
+>
+> >
+> > Answer: A. Education, Finance, Government, Healthcare
+> >
+> > According to <a href= "https://www.interpol.int/en/News-and-Events/News/2020/INTERPOL-report-shows-alarming-rate-of-cyberattacks-during-COVID-19">INTERPOL</a>,
+> > as cited by the Comcast report, attacks in 2020 shifted from individuals to big corporation, government and critical infrastructure.
+> >
+> > 73% of attacks targeted Education, Finance, Government, and Healthcare. Retail, Real Estate, Transportation, Utilities, and Religious Institutions; and
+> > Information Technology & Manufacturing both took less than 20% of attacks.
+> {: .solution}
+>
+{: .challenge}
+
 Since DoS attacks are unfortunately a common occurence on the Internet, modern web servers include
 measures to ward off such illegitimate use of their resources. They are watchful for large amounts
 of requests appearing to come from a single computer or IP address, and their first line of defense often involves
@@ -80,6 +104,19 @@ way to make sure our code is not going to start scraping the entire Internet by 
 
 Thanks to the defenses web servers use to protect themselves against DoS attacks and Scrapy's
 measure to avoid inadvertently launching such an attack, the risks of causing trouble is limited.
+
+> ## Ethics Discussion: Intentional precautionary measures
+>
+> Even though Scrapy's default behavior is intended to prevent Denial of Service on a website,
+> you as the user can make choices that are mindful of how you use Scrapy.
+>
+> What are some precautionary practices you can do as a Scrapy user?
+>
+> > * Avoid concentrating your webscraping into a short amount of time, so that you have longer delays between requests.
+> > * Webscrape sites during off-peak hours to help ensure that other website users may access website services.
+> {: .solution}
+>
+{: .discussion}
 
 ## Don't steal: Copyright and fair use
 
@@ -107,10 +144,23 @@ copyrighted, information in an aggregate or derivative format is considered
 it word for word or trying to make money out of it, reusing publicly available
 content scraped off the internet is OK.
 
-> ## Webscraping Use Case: News Articles
-> On April 25, 2022
+> ## Webscraping Use Case: Web Articles
 >
+> Towards Data Science is a popular online site filled with publications from independent writers. In 2018, Will Koehrsen published an article in Towards Data Science called
+> ["The Next Level of Data Visualization in Python: How to make great-looking, fully-interactive plots with a single line of Python"](https://towardsdatascience.com/the-next-level-of-data-visualization-in-python-dd6e99039d5e).
 >
+> Here's the first few lines of Koehrsen's article:
+> "The sunk-cost fallacy is one of many harmful cognitive biases to which humans fall prey.
+> It refers to our tendency to continue to devote time and resources to a lost cause because we have already spent — sunk — so much time in the pursuit...
+> Over the past few months, I’ve realized the only reason I use matplotlib is the hundreds of hours I’ve sunk into learning the convoluted syntax."
+>
+> One of the lines in the article is "Luckily, plotly + cufflinks was designed with time-series visualizations in mind." Please try google this line and seeing what results show up.
+> Do any of the results seem familiar?
+>
+> > You may notice that multiple blogs have the content of Koehrsen's article without proper citation. Many sites use webscraping to obtain content of
+> > other publications in order to automatically generate articles.
+> >
+> {: .solution}
 {: .discussion}
 
 ### Better be safe than sorry
