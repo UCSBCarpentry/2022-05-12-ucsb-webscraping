@@ -75,8 +75,8 @@ This is called a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack
 > >
 > > 73% of attacks targeted Education, Finance, Government, and Healthcare. Retail, Real Estate, Transportation, Utilities, and Religious Institutions; and
 > > Information Technology & Manufacturing both took less than 20% of attacks.
+> > 
 > {: .solution}
->
 {: .challenge}
 
 Since DoS attacks are unfortunately a common occurence on the Internet, modern web servers include
@@ -114,9 +114,9 @@ measure to avoid inadvertently launching such an attack, the risks of causing tr
 >
 > > * Avoid concentrating your webscraping into a short amount of time, so that you have longer delays between requests.
 > > * Webscrape sites during off-peak hours to help ensure that other website users may access website services.
+> > 
 > {: .solution}
->
-{: .discussion}
+{: .challenge}
 
 ## Don't steal: Copyright and fair use
 
@@ -154,14 +154,14 @@ content scraped off the internet is OK.
 > It refers to our tendency to continue to devote time and resources to a lost cause because we have already spent — sunk — so much time in the pursuit...
 > Over the past few months, I’ve realized the only reason I use matplotlib is the hundreds of hours I’ve sunk into learning the convoluted syntax."
 >
-> One of the lines in the article is "Luckily, plotly + cufflinks was designed with time-series visualizations in mind." Please try google this line and seeing what results show up.
+> One of the lines in the article is <strong>"Luckily, plotly + cufflinks was designed with time-series visualizations in mind."</strong> Please do a web-search of this line and seeing what results show up.
 > Do any of the results seem familiar?
->
+> 
 > > You may notice that multiple blogs have the content of Koehrsen's article without proper citation. Many sites use webscraping to obtain content of
 > > other publications in order to automatically generate articles.
 > >
 > {: .solution}
-{: .discussion}
+{: .challenge}
 
 ### Better be safe than sorry
 Be aware that copyright and data privacy legislation typically differs from country
