@@ -43,7 +43,7 @@ We will access JupyterLab through a cloud-based server called JupyterHub (our in
 Start up Anaconda Navigator on your device. On the Anaconda Navigator Home dashboard, you will see a list of applications. Please find and launch JupyterLab. JupyterLab will open a tab on your browser and run from inside that tab.
 
 <p align='center'>
-    <img alt="Launch JupyterLab" src="../fig/Anaconda-Jupyter-Launching.png" width="250"/>
+    <img alt="Launch JupyterLab" src="../fig/Anaconda-Jupyter-Launching.png" width="750"/>
 </p>
 
 ## The JupyterLab Interface
