@@ -88,7 +88,7 @@ and terminals, the command palette, and a list of open tabs in the main work are
 the default Left Side Bar is provided below.
 
 <p align='center'>
-    <img alt="JupyterLab Left Side Bar" src="../fig/JupyterLab default left sidebar.PNG" width="250"/>
+    <img alt="JupyterLab Left Side Bar" src="../fig/JupyterLab_default_left_sidebar.png" width="250"/>
 </p>
 
 The left sidebar can be collapsed or expanded by selecting “Show Left Sidebar” in the View menu or
