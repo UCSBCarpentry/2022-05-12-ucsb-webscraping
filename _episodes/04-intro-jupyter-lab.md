@@ -43,7 +43,7 @@ We will access JupyterLab through a cloud-based server called JupyterHub (our in
 Start up Anaconda Navigator on your device. On the Anaconda Navigator Home dashboard, you will see a list of applications. Please find and launch JupyterLab. JupyterLab will open a tab on your browser and run from inside that tab.
 
 <p align='center'>
-    <img alt="JupyterLab Left Side Bar" src="../fig/JupyterLab_default_left_sidebar.png" width="250"/>
+    <img alt="JupyterLab Left Side Bar" src="../fig/" width="250"/>
 </p>
 
 ## The JupyterLab Interface
@@ -56,7 +56,7 @@ consists of the Menu Bar, a collapsable Left Side Bar, and the Main Work Area wh
 of documents and activities.
 
 <p align='center'>
-    <img alt="JupyterLab Interface" src="../fig/JupyterLab_landingpage.png" width="750"/>
+    <img alt="JupyterLab Interface" src="../fig/interface_jupyterlab.png" width="750"/>
 </p>
 
 ### Menu Bar
