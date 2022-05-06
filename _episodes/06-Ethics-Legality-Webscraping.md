@@ -1,5 +1,5 @@
 ---
-title: "Conclusion"
+title: "Ethics & Legality of Webscraping"
 teaching: 15
 exercises: 15
 questions:
