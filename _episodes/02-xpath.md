@@ -20,7 +20,7 @@ keypoints:
 - "XPath queries are constructed as paths going up or down the node tree."
 - "XPath queries can be run in the browser using the `$x()` function."
 ---
-Before we delve into web scraping proper, we will first spend some time introducing
+Before we delve into web scraping properly, we will first spend some time introducing
 some of the techniques that are required to indicate exactly what should be
 extracted from the web pages we aim to scrape.
 
