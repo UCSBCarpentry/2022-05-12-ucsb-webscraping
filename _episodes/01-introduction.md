@@ -48,7 +48,7 @@ As useful as scraping is, there might be better options for the task. Choose the
 - Check whether or not you can easily copy and paste data from a site into Excel or Google Sheets. This might be quicker than scraping.
 - Check if the site or service already provides an API to extract structured data. If it does, that will be a much more efficient and effective pathway. Good examples are the 
 [Facebook API](https://developers.facebook.com/tools/explorer/), the [Twitter APIs](https://dev.twitter.com/rest/public) or the [YouTube comments API](https://developers.google.com/youtube/v3/docs/commentThreads/list).
-- For much larger needs, Freedom of information requests can be useful. Be specific about the formats required for the data you want.
+- For much larger needs, [Freedom of information Act (FOIA)](https://www.foia.gov/how-to.html) requests can be useful. Be specific about the formats required for the data you want.
 
 ## Example: scraping UCSB department websites for faculty contact information
 
