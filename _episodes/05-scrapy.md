@@ -536,7 +536,7 @@ to only select the `href` attribute of the URL:
 {: .source}
 
 This returns an array of objects:
-<img src="../fig/chrome-screen-shot-xpath-selecting-elements.png">
+
 ~~~
 <- (44) [href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href, href]
 ~~~
