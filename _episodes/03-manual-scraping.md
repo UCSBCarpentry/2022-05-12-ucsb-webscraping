@@ -58,19 +58,19 @@ $x("//tr[td]")
 
 The above query will return something like:
 ~~~
-<- (48)
+<- (46)
 ~~~
 {: .output}
 
 Which we can explore in the console and check for highlights to make sure this is the right data.
 
-Could you guess why we got 48 as a result?
+Could you guess why we got this number?
 
-There are 24 rows with faculty profiles, but in between them we had tr box shadows, if we unselect "Exclude empty results" which is set by default, we will get empty rows in our output. So it is wise to keep this option always selected.
+There are 23 rows with faculty profiles, but in between them we had tr box shadows, if we unselect "Exclude empty results" which is set by default, we will get empty rows in our output. So it is wise to keep this option always selected.
 
 Scraper also recognized that there were four columns in that table, and has accordingly created such columns (highlighted in red in the screenshot), each with its own XPath selector, ```*[1]```, ```*[2]```, ```*[3]``` and ```*[4]```.
 
-To understand what this means, we have to remember that XPath queries are relative to the current context node. The context node has been set by the Selector query above, so those queries are relative to the array of tr elements that have been selected.
+To understand what this means, we have to remember that XPath queries are relative to the current context node. The context node has been set by the Selector query above, so those queries are relative to the array of tr elements that had been selected.
 
 We can replicate their effect by trying out the following expression in the console:
 ~~~
