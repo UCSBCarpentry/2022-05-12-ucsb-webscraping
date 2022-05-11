@@ -833,6 +833,10 @@ of our project by successfully extracting all URLs leading to the minister profi
 >
 {: .callout}
 
+# Part 2: More Scraping with Scrapy
+  
+---
+  
 ## Recursive scraping
 
 Now that we were successful in harvesting the URLs to the detail pages, let's begin by editing
