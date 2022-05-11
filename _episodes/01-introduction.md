@@ -53,7 +53,7 @@ As useful as scraping is, there might be better options for the task. Choose the
 ## Example: scraping UCSB department websites for faculty contact information
 
 In this lesson, we will extract contact information
-from UCSB department faculty pages. This example came from a recent real-life scenario when a couple of our colleagues, Renata and Greg, who will be teaching this section, needed to make lists of social sciences faculty for outreach reasons. There is no overarching list of faculty, contact information, and study area available for the university as a whole. This was made even more difficult by the fact that each UCSB department has webpages with wildly different formating. We will see examples using both the scraping chrome extension and Scrapy through python. There are different scenarios when one might be a better choice than the other.
+from UCSB department faculty pages. This example came from a recent real-life scenario when our team needed to make lists of social sciences faculty for outreach reasons. There is no overarching list of faculty, contact information, and study area available for the university as a whole. This was made even more difficult by the fact that each UCSB department has webpages with wildly different formating. We will see examples using both the scraping chrome extension and Scrapy through Python. There are different scenarios when one might be a better choice than the other.
 
 Let's start by looking at the current list of members of the Canadian parliament, which is available
 on the [Parliament of Canada website](http://www.parl.gc.ca/Parliamentarians/en/members).
