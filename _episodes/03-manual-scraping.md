@@ -223,7 +223,7 @@ You should get this path:
 
 
 
-Let's look at another XPath function called concat() that can be used to concatenate things. This function basically joins two or more strings into one. If we want to scrape the names along the bio web pages for all faculty we can take the following steps:
+Let's look at another XPath function called concat() that can be used to link things together. This function basically joins two or more strings into one. If we want to scrape the names along the bio web pages for all faculty we can take the following steps:
 
 
 ![Scraping bio pages with names]({{ page.root }}/fig/Image10.png)
