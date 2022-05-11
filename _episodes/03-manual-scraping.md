@@ -40,7 +40,7 @@ Either operation will bring up the Scraper window:
 
 ![Scraper web browser with red and blue boxes]({{ page.root }}/fig/Image4.png)
 
-We can notice that Scraper has generated XPath queries that correspond to the data we had selected upon calling it. The Selector (highlighted in blue in the above screenshot) has been set to `//tr[td]` which selects all the rows of the table, delimiting the data we want to extract.
+Note that Scraper has generated XPath queries that correspond to the data we had selected upon calling it. The Selector (highlighted in blue in the above screenshot) has been set to `//tr[td]` which picks all the rows of the table, delimiting the data we want to extract.
 In fact, we can try out that query using the technique that we learned in the previous section by typing the following in the browser console:
 
 > ## Tip: Use the following shortcuts to Open Console Panel:
@@ -259,7 +259,7 @@ Note that the XPath expression basically tells Scraper what should be placed bef
 > > `concat('Dr. ', .)`
 > >
 > >
-> > If you rename and reorder columns you should have this final output
+> > If you rename and reorder columns you should have this final output:
 > >
 > > ![Concat Output Challenge]({{ page.root }}/fig/Image11.png)
 > {: .solution}
