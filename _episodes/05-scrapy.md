@@ -783,7 +783,7 @@ https://www.psych.ucsb.edu/people/faculty/john-foley
 {: .output}
 
 We can now pat ourselves on the back, as we have successfully completed the first stage
-of our project by successfully extracting all URLs leading to the minister profiles!
+of our project by successfully extracting all URLs leading to the faculty profiles!
 
 > ## Limit the number of URLs to scrape through while debugging
 >
