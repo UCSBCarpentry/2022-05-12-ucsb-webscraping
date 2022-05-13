@@ -479,16 +479,16 @@ Here is an excerpt of that page:
       <tbody>
           <tr class="rev--people--row">
               <td>
-                <h5>
-                  <a href="/people/faculty/nicole-alea-albada" hreflang="en">Nicole Alea Albada</a></h5>
+                <h2>
+                  <a href="/people/faculty/nicole-alea-albada" hreflang="en">Nicole Alea Albada</a></h2>
                 <p>Assistant Teaching Professor</p></td>
               <td class="about--teaser"></td>
               <td> </td>
           </tr>
           <tr class="rev--people--row">
               <td>
-                <h5>
-                  <a href="/people/faculty/greg-ashby" hreflang="en">Greg Ashby</a></h5>
+                <h2>
+                  <a href="/people/faculty/greg-ashby" hreflang="en">Greg Ashby</a></h2>
                 <p>Distinguished Professor</p> </td>
               <td class="about--teaser">Professor Ashby is interested in the basic cognitive and neural mechanisms that mediate human learning. His approach combines experimental psychology, cognitive neuroscience, and mathematical modeling </td>
               <td>
@@ -503,7 +503,7 @@ Here is an excerpt of that page:
 {: .output}
 
 There are different strategies to target the data we are interested in. One of them is to identify
-that the URLs are inside the `a` elements which are respectively in the `h5` elements which are inside the `td` elements which are within the `tr` elements of the class `rev--people--row`.
+that the URLs are inside the `a` elements which are respectively in the `h2` elements which are inside the `td` elements which are within the `tr` elements of the class `rev--people--row`.
 
 We can determine that the XPath syntax to access all such elements is `//tr[@class='rev--people--row']`, which we can
 try out in the browser console:
@@ -531,7 +531,7 @@ Once we were able to confirm that we are targeting the right elements, we can ex
 to only select the `href` attribute of the URL:
 
 ~~~
-> $x("//tr[@class='rev--people--row']/td/h5/a/@href")
+> $x("//tr[@class='rev--people--row']/td/h2/a/@href")
 ~~~
 {: .source}
 
@@ -586,7 +586,7 @@ We can now try running the XPath query we just devised against the `response` ob
 contains the downloaded web page:
 
 ~~~
-In [1]: response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href")
+In [1]: response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href")
 ~~~
 {: .source}
 
@@ -594,8 +594,8 @@ This will return a bunch of `Selector` objects (one for each URL found):
 
 ~~~
 Out[1]:
-[<Selector xpath="//tr[@class='rev--people--row']/td/h5/a/@href" data='/people/faculty/nicole-alea-albada'>,
-<Selector xpath="//tr[@class='rev--people--row']/td/h5/a/@href" data='/people/faculty/greg-ashby'>,
+[<Selector xpath="//tr[@class='rev--people--row']/td/h2/a/@href" data='/people/faculty/nicole-alea-albada'>,
+<Selector xpath="//tr[@class='rev--people--row']/td/h2/a/@href" data='/people/faculty/greg-ashby'>,
  ...]
 In [2]:
 ~~~
@@ -619,7 +619,7 @@ In [2]:
 >In[3]:
 >~~~
 >{: .output}
-> `response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href")`
+> `response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href")`
 >
 > versus:
 >
@@ -637,7 +637,7 @@ we can use the `extract()` method. A variant of that method is `extract_first()`
 same thing as `extract()` but only returns the first element if there is more than one:
 
 ~~~
-response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract_first()
+response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract_first()
 ~~~
 {: .source}
 
@@ -662,7 +662,7 @@ In [4]:
 > variable:
 >
 > ~~~
->  testurl = response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract_first()
+>  testurl = response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract_first()
 > ~~~
 > {: .source}
 >
@@ -734,7 +734,7 @@ import scrapy
     start_urls = ['https://www.psych.ucsb.edu/people?people_type=6']
 
     def parse(self, response):
-      for url in response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract():
+      for url in response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract():
         print(response.urljoin(url))
 ~~~
 {: .source}
@@ -823,7 +823,7 @@ of our project by successfully extracting all URLs leading to the minister profi
 >     start_urls = ['https://www.psych.ucsb.edu/people?people_type=6']
 >
 >   def parse(self, response):
->     for url in response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract()[:5]:
+>     for url in response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract()[:5]:
 >       print(response.urljoin(url))
 > ~~~
 > {: .source}
@@ -862,7 +862,7 @@ class PsychfacultySpider(scrapy.Spider):
         # 'start_url' argument above. The content of the scraped URL is passed on
         # as the 'response' object.
 
-        for url in response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract()[:5]:
+        for url in response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract()[:5]:
             # This loops through all the URLs found inside an element of class 'rev--people--row'
 
             # Constructs an absolute URL by combining the response’s URL with a possible relative URL:
@@ -1080,7 +1080,7 @@ class PsychfacultySpider(scrapy.Spider):
         # 'start_url' argument above. The content of the scraped URL is passed on
         # as the 'response' object.
 
-      for url in response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract()[:5]:
+      for url in response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract()[:5]:
             # This loops through all the URLs found inside an element of class 'rev--people--row'
 
             # Constructs an absolute URL by combining the response’s URL with a possible relative URL:
@@ -1188,7 +1188,7 @@ class PsychfacultySpider(scrapy.Spider):
         # 'start_url' argument above. The content of the scraped URL is passed on
         # as the 'response' object.
 
-      for url in response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract()[:5]:
+      for url in response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract()[:5]:
             # This loops through all the URLs found inside an element of class 'rev--people--row'
 
             # Constructs an absolute URL by combining the response’s URL with a possible relative URL:
@@ -1310,7 +1310,7 @@ class PsychfacultySpider(scrapy.Spider):
         # 'start_url' argument above. The content of the scraped URL is passed on
         # as the 'response' object.
 
-      for url in response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract():
+      for url in response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract():
             # This loops through all the URLs found inside an element of class 'rev--people--row'
 
             # Constructs an absolute URL by combining the response’s URL with a possible relative URL:
@@ -1355,7 +1355,7 @@ class PsychfacultySpider(scrapy.Spider):
     start_urls = ['https://www.psych.ucsb.edu/people?people_type=6']
 
     def parse(self, response):
-        for url in response.xpath("//tr[@class='rev--people--row']/td/h5/a/@href").extract():
+        for url in response.xpath("//tr[@class='rev--people--row']/td/h2/a/@href").extract():
             yield scrapy.Request(response.urljoin(url), callback=self.biopage)
 
     def biopage(self, response):
