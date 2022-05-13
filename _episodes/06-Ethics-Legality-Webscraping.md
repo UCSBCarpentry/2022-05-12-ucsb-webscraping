@@ -57,7 +57,7 @@ This is called a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack
 
 > ## Distributed Denial of Service Attacks in 2020 and 2021
 >
-> The <a href= "">2021 Comcast Business DDoS (Distributed Denial of Service) Threat Report</a> recorded
+> The <a href= "https://business.comcast.com/community/browse-all/details/2021-comcast-business-ddos-threat-report">2021 Comcast Business DDoS (Distributed Denial of Service) Threat Report</a> recorded
 > a significant increase in global DDoS attacks in 2020 and 2021. Also, Comcast also noted how these years saw a shift in targets
 > for these attacks.
 >
