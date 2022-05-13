@@ -854,7 +854,7 @@ class PsychfacultySpider(scrapy.Spider):
     name = "psychfaculty" # The name of this spider
 
     # The allowed domain and the URLs where the spider should start crawling:
-    allowed_domains = ['www.psych.ucsb.edu']
+    allowed_domains = ['www.psych.ucsb.edu', 'psych.ucsb.edu']
     start_urls = ['https://www.psych.ucsb.edu/people?people_type=6']
 
     def parse(self, response):
